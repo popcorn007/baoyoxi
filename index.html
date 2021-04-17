@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+    html, body {margin:0;}
+    h1{font-family: arial, sans-serif;font-size:16px;color:#fff;}
+    .overlay{
+        position:absolute;
+        bottom:70px;
+        left:0;
+        padding:20px 50px 20px 50px;
+        background-color:#000;
+        opacity:0.35;
+        filter:alpha(opacity=35); 
+        z-index:2;}
+
+    a:link {
+        color: #91AD70;
+        }
+        a:visited {
+        color: #91AD70;
+        }
+        a:hover {
+        color: #91AD70;
+        }
+
+    .videoContainer{
+        position:absolute;
+        height:100%;
+        width:100%;
+        overflow: hidden;}
+
+    .videoContainer video{
+        min-width: 100%;
+        min-height: 100%;}
+    </style>
+</head>
+<body>
+    <div class="overlay">
+    <h1>大家好，我是鲍柚希。</h1>
+    <h1>网站制作中...（也许会很久）</h1>
+    <h1><a href="http://yangbao.org/">这是我爸爸的网站</a>。</h1>
+    </div>
+<div>
+</div>
+<div class="videoContainer">
+<video autoplay loop>
+    <source src="rain_leaves.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<audio autoplay loop>
+    <source src="rain_leaves.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+</audio>
+</div>
+</body>
+</html>
